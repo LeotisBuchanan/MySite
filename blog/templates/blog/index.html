@@ -57,7 +57,7 @@
 
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="{% url 'home:homepage' %}">Home</a>
+                        <a href="{% url 'homepage' %}">Home</a>
                     </li>
                     <li>
                         <a href="mailto: patanaikchinmaya@gmail.com">Contact</a>
@@ -94,7 +94,7 @@
                         <h2 class="post-title"> {{ post.title }} </h2>
                     </a>
                     <p class="post-subtitle"> {{ post.body_text|truncatewords:10 }} </p>
-                    <p class="post-meta">Posted by <a href="{% url 'home:homepage' %}"> {{ post.author }} </a> on {{ post.pub_date }}</p>
+                    <p class="post-meta">Posted by <a href="{% url 'homepage' %}"> {{ post.author }} </a> on {{ post.pub_date }}</p>
                 </div>
                 {% endfor %}
                 <hr>

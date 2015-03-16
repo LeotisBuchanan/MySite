@@ -3,10 +3,8 @@ from django.conf.urls import patterns, url
 from home import views
 
 urlpatterns = patterns('',
-        url(r'^$', views.index, name='homepage'),
+        #url(r'^$', views.index, name='homepage'),
         url(r'^resume/$', views.resume, name='resume'),
         url(r'^projects/$', views.projects, name='projects'),
         url(r'^contact/$', views.contact, name='contact'),
-        #url(r'^(?P<question_id>\d+)/results/$', views.results, name='results'),
-        #url(r'^(?P<question_id>\d+)/vote/$', views.vote, name='vote'),
         )
