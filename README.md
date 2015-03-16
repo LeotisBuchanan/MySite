@@ -58,7 +58,7 @@ Blog template - Clean blog(http://startbootstrap.com/template-overviews/clean-bl
 TODO:
 -----
 1. Host it on App engine or Heroku(Check out DigitalOcean too.)
-2. Switch database to Postgresql or Mysql.
+2. ~~Switch database to Postgresql or Mysql.~~
 3. Add tests.
 4. ~~Add resume.~~
 5. ~~Build Contacts Page.~~
