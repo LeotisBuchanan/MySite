@@ -5,7 +5,7 @@ Recently I have started learning Django. After finishing the awesome Django tuto
 Technology:
 -----------
 Back-end - Python 2.7  
-Web Framework - Django 1.7.4  
+Web Framework - Django 1.7  
 Database - sqlite3  
 Front-end - HTML/CSS/JavaScript  
 Front-end tool - Bootstrap  
@@ -16,32 +16,35 @@ Installation:
 Clone the repo  
 
 ```
-git clone git@github.com:pattu777/MySite.git
+$ git clone git@github.com:pattu777/MySite.git
 ```
 
 Change directory  
 
 ```
-$cd MySite/
+$ cd MySite/
 ```
 
 Create and activate virtualenv(Strongly Recommended)  
 
 ```
-$virtualenv venv
-$source venv/bin/activate
+$ virtualenv venv
+$ source venv/bin/activate
 ```
 
 Install the packages  
 
 ```
-$pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 Run the Django server  
 
 ```
-$python manage.py runserver
+$ python manage.py makemigrations
+$ python manage.py migrate
+$ python manage.py collectstatic
+$ python manage.py runserver
 ```
 
 
