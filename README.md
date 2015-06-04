@@ -4,12 +4,14 @@ Recently I have started learning Django. After finishing the awesome Django tuto
 
 Technology:
 -----------
+```
 Back-end - Python 2.7  
 Web Framework - Django 1.7  
 Database - sqlite3  
 Front-end - HTML/CSS/JavaScript  
 Front-end tool - Bootstrap  
 Operating System - Ubuntu 14.04  
+```
 
 Installation:
 -------------
@@ -60,7 +62,7 @@ Blog template - Clean blog(http://startbootstrap.com/template-overviews/clean-bl
 
 TODO:
 -----
-1. Host it on App engine or Heroku(Check out DigitalOcean too.)
+1. ~~Host it on App engine or Heroku(Check out DigitalOcean too).~~
 2. ~~Switch database to Postgresql or Mysql.~~
 3. Add tests.
 4. ~~Add resume.~~
