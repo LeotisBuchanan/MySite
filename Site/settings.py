@@ -67,7 +67,7 @@ ROOT_URLCONF = 'Site.urls'
 WSGI_APPLICATION = 'Site.wsgi.application'
 
 CKEDITOR_UPLOAD_PATH = "uploads/"
-CKEDITOR_JQUERY_URL = '//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'
+CKEDITOR_JQUERY_URL = '//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'
 #CKEDITOR_IMAGE_BACKEND = 'pillow'
 
 
