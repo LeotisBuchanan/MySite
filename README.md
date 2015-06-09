@@ -71,4 +71,4 @@ TODO:
 7. ~~Change Django admin password.~~
 8. Use flake8 or Pylint for code check.
 9. Add coverage.  
-10. Add a WSYWYG editor to Django admin interface.
+10. ~~Add a WSYWYG editor to Django admin interface.~~
