@@ -19,6 +19,7 @@ __pycache__/*
 .idea
 venv/*
 static/*
+*.sqlite3
 
 # Package files
 *.egg
