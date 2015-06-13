@@ -20,6 +20,7 @@ __pycache__/*
 venv/*
 static/*
 *.sqlite3
+Site/settings_secret.py
 
 # Package files
 *.egg
